@@ -1,2 +1,6 @@
-# My-Port
-comecando trabalhar no meu novo portifolio em react.
+# GERADOR DE SENHAS
+
+
+para executar basta clonar e executar o comando abaixo no terminal:
+
+```npm run dev```
