@@ -1,0 +1,24 @@
+{
+  "name": "validador",
+  "version": "1.0.0",
+  "description": "o projeto para validar email e cpf",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite --open",
+    "test": "npm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhonathancs/Aulas-react.git"
+  },
+  "author": "jhonathancs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhonathancs/Aulas-react/issues"
+  },
+  "homepage": "https://github.com/jhonathancs/Aulas-react#readme",
+  "dependencies": {
+    "validator": "^13.7.0",
+    "vite": "^4.0.4"
+  }
+}
