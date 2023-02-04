@@ -1,0 +1,26 @@
+{
+  "name": "aulas-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhonathancs/Aulas-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhonathancs/Aulas-react/issues"
+  },
+  "homepage": "https://github.com/jhonathancs/Aulas-react#readme",
+  "dependencies": {
+    "clipboard-copy": "^4.0.1",
+    "nanoid": "^4.0.0",
+    "vite": "^4.0.4"
+  },
+  "type": "module"
+}
