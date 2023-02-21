@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(226, 242, 213);
+    text-align: center;
+}
+
+#btn {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+#imageHero {
+border-radius: 50%;
+border: 2px solid black;
+width: 500px;
+height: 500px;
+box-shadow: 0 px 0px 5px rgba(0, 0, 0, 0.5);
+}
