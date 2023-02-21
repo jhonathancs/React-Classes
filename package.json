@@ -1,0 +1,21 @@
+{
+  "name": "aulas-react",
+  "version": "1.0.0",
+  "description": "comecando trabalhar no meu novo portifolio em react.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhonathancs/React-Classes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhonathancs/React-Classes/issues"
+  },
+  "homepage": "https://github.com/jhonathancs/React-Classes#readme"
+}
