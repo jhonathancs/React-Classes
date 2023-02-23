@@ -20,7 +20,21 @@ const fetchCoin = (value) => {
     return result
 }
 
+ 
+  
 btnSearch.addEventListener('click', async () =>{
+
+ if (inputText.value === ''){
+     {
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops ...',
+            text: 'Voce Precisa passar uma Moeda!'})
+
+    }}
+
+else{
+  
     const inputTextInsert = inputText.value
     const responseApi = await fetchCoin(inputTextInsert);
     const rates = await responseApi.rates
@@ -30,26 +44,17 @@ btnSearch.addEventListener('click', async () =>{
 
         const conteiner = document.createElement('div');
         conteiner.classList.add('divFilha')
+        const colorFont = document.createElement('span')
         conteiner.textContent = `${rate}: ${rates[rate]} `
         conteinerDiv.appendChild(conteiner)
 
       }
-    }
-);
+    
 
     
 
+}})
 
 
 
 
-
-// btnSearch.addEventListener('click', () => {
-//     {
-//         Swal.fire({
-//             icon: 'error',
-//             title: 'Oops ...',
-//             text: 'Voce Precisa passar uma Moeda!',
-//             // footer: '<a href="">Why do I have this issue?</a>'
-//           })
-//     }
