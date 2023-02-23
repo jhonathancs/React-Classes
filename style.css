@@ -34,14 +34,17 @@ p {
 }
 
 .btn {
+    box-sizing: border-box;
+
     position: absolute;
-    width: 111px;
+    width: 171px;
     height: 48px;
-    left: 521px;
-    top: 205px;
+    left: 491px;
+    top: 185px;
+    
     background: #96EB95;
-    ;
-    border-radius: 10px;   
+    border: 1px solid #96EB95;
+    border-radius: 10px;
 }
 
 .coin {
@@ -49,7 +52,7 @@ p {
     width: 171px;
     height: 48px;
     left: 306px;
-    top: 200px;
+    top: 185px;
     background: rgba(217, 217, 217, 0.1);
     border-radius: 10px;
 }
@@ -63,7 +66,88 @@ p {
     height: 583px;
     left: 306px;
     top: 290px;
-
+    padding: 10px;
     background: rgba(255, 255, 255, 0.06);
-border-radius: 20px;
+    border-radius: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(5, 0.20fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-gap: 10px;
+    border: 1px solid black;
+    overflow: scroll;
+}   
+.divFilha{
+    width: 150px;
+    height: 44px;
+    left: 336px;
+    top: 372px;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    font-family: 'Fire Code';
+
 }
+::-webkit-scrollbar {
+    background-color: #f5f5f5;
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #999;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #666;
+  }
+
+  ::-webkit-scrollbar-thumb:active {
+    background-color: #333;
+  }
+  
+  .headerr{
+    position: absolute;
+    width: 517px;
+    height: 74px;
+    left: 306px;
+    top: 63px;
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 79px;
+  }
+  .pclass{
+    position: absolute;
+    width: 111px;
+    height: 15px;
+    left: 307px;
+    top: 165px;
+    
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    
+    color: #FFFFFF;
+  }
+  .CambioText{
+    width: 517px;
+    height: 74px;
+    left: 306px;
+    top: 63px;
+    
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 79px;
+    
+    color: #95EBA8;
+  }
