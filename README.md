@@ -1,2 +1,2 @@
-# My-Port
-comecando trabalhar no meu novo portifolio em react.
+# React-Classes
+estudando em dupla todo conteudo de Front-end
