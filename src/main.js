@@ -45,6 +45,7 @@ else{
         const conteiner = document.createElement('div');
         conteiner.classList.add('divFilha')
         const colorFont = document.createElement('span')
+        colorFont.classList.add('ColorFont')
         conteiner.textContent = `${rate}: ${rates[rate]} `
         conteinerDiv.appendChild(conteiner)
 
