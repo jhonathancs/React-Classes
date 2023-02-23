@@ -5,15 +5,13 @@ estudando em dupla todo conteudo de Front-end
 - Para executar o Projeto basta clonar e depois executar no terminal os comandos abaixo:
 
 - Primeiro instale a dependecia
-
+    - install the dependencies, if use npm
 ```bash
-    #install the dependencies, if use npm
-    $ npm install
+    npm install
 ```
 - Depois rode o comando para rodar o projeto
-
+    - install the dependencies, if use npm
 ```bash
-    #install the dependencies, if use npm
     $ npm run dev
 ```
 
