@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(10, 15, 10);
+    color: white;
+    font-family: 'Segoe UI';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* margin-top: 10%; */
+}
+
+#box {
+background-color: rgba(255, 255, 255, 0.1);
+max-width: 500px;
+padding: 10px 40px;
+border-radius: 10px;
+overflow: auto;
+
+}
+#content{
+white-space: pre-wrap;
+word-wrap: break-word;
+background-color: rgba(255, 255, 255, 0.1);
+padding: 20px;
+width: 300px;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #a4e271;
+	background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+	background-color:rgb(162, 224, 70);
+	border-radius:6px;
+	border:1px solid #74b807;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528009;
+    height: 36px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+	background-color:#77a809;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.css-input {
+    padding: 10px;
+    font-size: 13px;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    height: 15px
+}
+.css-input:focus {
+    outline:none;
+}
