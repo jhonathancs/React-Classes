@@ -2,9 +2,21 @@
 estudando em dupla todo conteudo de Front-end
 
 # INICIALIZAR PROJETO
-- Para executar o Projeto basta executa no terminal o comando abaixo
-- npm install
-- npm run dev
+- Para executar o Projeto basta clonar e depois executar no terminal os comandos abaixo:
+
+- Primeiro instale a dependecia
+
+```bash
+    #install the dependencies, if use npm
+    $ npm install
+```
+- Depois rode o comando para rodar o projeto
+
+```bash
+    #install the dependencies, if use npm
+    $ npm run dev
+```
+
 
 # Iniciar o projeto com NPM
 - [ ] Criar o diretório do projeto.
