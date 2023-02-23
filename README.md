@@ -2,6 +2,9 @@
 estudando em dupla todo conteudo de Front-end
 
 # INICIALIZAR PROJETO
+- Para executar o Projeto basta executa no terminal o comando abaixo
+- npm install
+- npm run dev
 
 # Iniciar o projeto com NPM
 - [ ] Criar o diretório do projeto.
